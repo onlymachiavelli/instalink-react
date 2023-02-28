@@ -17,6 +17,7 @@ module.exports = {
       fontFamily: {},
       backgroundImage: {
         circle: "url('./src/assets/circle.svg')",
+        company : "url('./src/assets/bck.jpg')"
       },
     },
   },
