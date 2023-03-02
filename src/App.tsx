@@ -1,13 +1,15 @@
 import React , {} from 'react'
-import Header from './components/header'
-import SLD from './components/sld'
+import {Route, Routes, BrowserRouter} from 'react-router-dom'
+import Home from './pages/Home'
 const App = () =>{
 
   return (
-    <div className='w-full h-auto'>
-      <Header/>
-      <SLD/>
-    </div>
+      <BrowserRouter>
+        <Routes>
+
+          <Route  path='/' element={<Home/>} />
+        </Routes>
+      </BrowserRouter>
   )
 }
 
