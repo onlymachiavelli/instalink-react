@@ -3,7 +3,7 @@ import Navbar from './navbar'
 import {Link} from 'react-router-dom'
 const SLD = () =>{
     return (
-        <div className='w-full h-screen bg-company bg-cover bg-norepeat'>
+        <div className='w-full h-screen bg-company bg-cover bg-norepeat bg-fixed'>
             <div className='w-full h-full bg-[#000000a1] overflow-hidden'>
                 <Navbar/>
 
@@ -18,6 +18,7 @@ const SLD = () =>{
                     </div>
                 </div>
             </div>
+        
         </div>
     )
 }
