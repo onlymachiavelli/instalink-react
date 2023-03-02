@@ -4,7 +4,7 @@ import logo from './../assets/logo.png'
 const Navbar = () =>{
 
     return (
-        <nav className='w-full h-auto bg-none flex'>
+        <nav className='w-full h-auto bg-none flex border-b border-[#ffffff5c] '>
             <div>
                 <a href="">
                     <img src={logo} width="170" />
@@ -18,6 +18,8 @@ const Navbar = () =>{
                 <Link to={"/"} className="text-white">Pages</Link>
                 <Link to={"/"} className="text-white">Contact</Link>
                 <Link to={"/"} className="text-white">About</Link>
+
+                <button className='w-none h-none'><i className="fa fa-search text-white " aria-hidden="true"></i></button>
             </nav> 
         </nav>
     ) 
