@@ -4,6 +4,8 @@ import SLD from '../components/sld'
 import Stats from '../components/stats'
 import logo from './../assets/logo.png'
 import { Toaster, toast } from 'react-hot-toast'
+import Partners from '../components/partners'
+import sbi from './../assets/sbi.png'
 const Home = () =>{
     return (
         <div className='w-full h-auto'>
@@ -22,6 +24,10 @@ const Home = () =>{
                 <p className='pl-10'>Due to the lack of security in homes and weak management, Instalink provides users and customers with home technology gadgets that provide them with services that save them time and security.
 and easy management for users.</p>
             </div>
+            <Partners
+                Images={[logo, logo, logo, logo]}
+            />
+
             <Toaster 
                 position="top-right"
                 reverseOrder={false}

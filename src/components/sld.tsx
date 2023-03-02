@@ -1,6 +1,7 @@
 import React, {} from 'react'
 import Navbar from './navbar'
 import {Link} from 'react-router-dom'
+
 const SLD = () =>{
     return (
         <div className='w-full h-screen bg-company bg-cover bg-norepeat bg-fixed'>
@@ -14,7 +15,7 @@ const SLD = () =>{
                         <p className='text-white text-6xl font-bold'>Digital Solution</p>
                         <br/>
                         <div className='flex gap-4 justify-center'><Link to={""} className="text-white px-10 py-4 bg-[#06a3da]">Free Quote</Link>
-                        <Link to={""} className="text-white px-10 py-4 bg-none border border-white">Contact US</Link></div>
+                        <Link to={""} className="text-white px-10 py-4 bg-none border border-white duration-500 hover:bg-[#ffffff57]">Contact US</Link></div>
                     </div>
                 </div>
             </div>
