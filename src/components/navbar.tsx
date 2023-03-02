@@ -1,6 +1,7 @@
 import React, {} from 'react'
 import {Link} from 'react-router-dom'
 import logo from './../assets/logo.png'
+import {toast } from 'react-hot-toast'
 const Navbar = () =>{
 
     return (
@@ -19,7 +20,9 @@ const Navbar = () =>{
                 <Link to={"/"} className="text-white">Contact</Link>
                 <Link to={"/"} className="text-white">About</Link>
 
-                <button className='w-none h-none'><i className="fa fa-search text-white " aria-hidden="true"></i></button>
+                <button onClick={()=>{
+                    toast.error("We Still building the website so there's no search at this time ")
+                }}  className='w-none h-none'><i className="fa fa-search text-white " aria-hidden="true"></i></button>
             </nav> 
         </nav>
     ) 
