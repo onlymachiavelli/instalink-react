@@ -7,6 +7,7 @@ import { Toaster, toast } from 'react-hot-toast'
 import Partners from '../components/partners'
 import sbi from './../assets/sbi.png'
 import Gallery from '../components/Gallery'
+import Footer from '../components/Footer'
 const Home = () =>{
     return (
         <div className='w-full h-auto'>
@@ -34,6 +35,8 @@ and easy management for users.</p>
                 position="top-right"
                 reverseOrder={false}
             />
+
+            <Footer/>
         </div>
     ) 
 }
