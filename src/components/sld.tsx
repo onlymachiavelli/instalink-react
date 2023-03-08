@@ -1,10 +1,10 @@
 import React, {} from 'react'
 import Navbar from './navbar'
 import {Link} from 'react-router-dom'
-
+import comp from './../assets/bck.jpg'
 const SLD = () =>{
     return (
-        <div className='w-full h-screen bg-company bg-cover bg-norepeat bg-fixed'>
+        <div className='w-full h-screen  bg-cover bg-norepeat bg-fixed' style={{backgroundImage :`url(${comp})`}}>
             <div className='w-full h-full bg-[#000000a1] overflow-hidden'>
                 <Navbar/>
 
