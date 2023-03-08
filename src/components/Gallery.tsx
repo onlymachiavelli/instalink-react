@@ -19,8 +19,8 @@ const Gallery = () =>{
         height: '400px'
       }
     return (
-        <div className='w-full h-screen overflow-hidden '>
-            <Zoom scale={1.4} indicators={true} autoplay={true}>
+        <div className='w-full h-screen overflow-hidden'>
+            <Zoom scale={1} indicators={true} autoplay={true} infinite={true} canSwipe={true} duration={1000}>
             {images.map((each: any, index :any) => (
                 <div key={index} style={{ width: "100%" }}>
                     <img style={{ objectFit: "cover", width: "100%", }} alt="Slide Image" src={each}  className="h-screen"/>
