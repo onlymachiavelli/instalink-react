@@ -15,9 +15,9 @@ const Home = () =>{
             <SLD/>
             <br/>
             <Stats
-                Projects={"+100"}
-                Clients={"+250"}
-                Awards={"59"}
+                Projects={"0"}
+                Clients={"0"}
+                Awards={"0"}
             />
             <Gallery/>
             <div className='w-2/3 m-auto pb-20'> 
