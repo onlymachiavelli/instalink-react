@@ -9,7 +9,7 @@ const Header=  () =>{
                 <p className='text-white text-sm flex'><i className="fa fa-phone text-xl" aria-hidden="true"></i>
                 <span className='pt-0.5 pl-2'>+216 00 000 000</span> </p>
                 <p className='text-white text-sm flex'><i className="fa fa-envelope text-xl" aria-hidden="true"></i>
-                <span className='pt-0.5 pl-2'><a href="mailto: contact@instalink.com">contact@instalink.com</a></span> </p>
+                <span className='pt-0.5 pl-2'><a href="mailto: contact@instalink.tn">contact@instalink.tn</a></span> </p>
              </div>
             <div className='flex gap-3'>
                 <a href=""><i className="fa fa-facebook text-white" aria-hidden="true"></i></a>
