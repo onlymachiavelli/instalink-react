@@ -19,6 +19,7 @@ const Home = () =>{
                 Clients={"0"}
                 Awards={"0"}
             />
+        <br />
             <Gallery/>
             <div className='w-2/3 m-auto pb-20'> 
                 <img src={logo} className="m-auto" />

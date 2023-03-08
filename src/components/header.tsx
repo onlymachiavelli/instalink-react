@@ -13,7 +13,7 @@ const Header=  () =>{
              </div>
             <div className='flex gap-3'>
                 <a href=""><i className="fa fa-facebook text-white" aria-hidden="true"></i></a>
-                <a href=""><i className="fa fa-linkedin text-white" aria-hidden="true"></i></a>
+                <a target={"_blank"} href="https://www.linkedin.com/company/instalink-tn/"><i className="fa fa-linkedin text-white" aria-hidden="true"></i></a>
                 <a href=""><i className="fa fa-instagram text-white" aria-hidden="true"></i></a>
                 <a href=""><i className="fa fa-youtube-play text-white" aria-hidden="true"></i></a>
             </div>
